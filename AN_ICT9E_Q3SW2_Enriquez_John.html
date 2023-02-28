@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&family=Pacifico&display=swap" rel="stylesheet">
+	<title>Seatwork 2: Bootstrap Tables, Images, Form and Buttons</title>
+	<style type="text/css">
+		h1{
+			font-family: Pacifico;
+			padding: 10px;
+			text-align: center;
+		}
+		h1 {
+			background-color:#EDF1D6;
+			color: #9DC08B;
+		}
+		h3 {
+			font-family: Pacifico;
+			padding: 10px;
+			text-align: left;
+		}
+
+		body{
+			background-color: #9DC08B;
+
+		}
+		.container{
+			padding:  30px;
+		}
+
+		th {
+			font-family: Barlow Condensed;
+			font-style: bold;
+			text-align: center;
+		}
+	</style>
+
+</head>
+<body>
+<div class="container bg-warning">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light justify-content-between">
+		<a href="#" class="navbar-brand">OBMC</a>
+		<ul class="navbar-nav">
+			<li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">MOVIES</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">NEW RELEASES</a></li>
+		</ul>
+
+		<form classs="form-inline">
+			<input type="Search" name="Search" class="form-control">
+			<input type="Submit" value="Search" class="btn btn-warning">
+		</form>
+		
+	</nav>
+</div>
+
+<hr>
+<div class="container bg-warning">
+
+<h1>My Favorite Movies</h1>
+		<table class="table table-bordered table-hover">
+			<tr>
+				<th></th>
+				<th>Director</th>
+				<th>Released Date</th>
+				<th>Sypnosis</th>
+			</tr>
+			<tr>
+				<th><img src="https://m.media-amazon.com/images/M/MV5BNTRkYmRhYmEtNmZlNS00ZDQxLWEzNjAtY2Y0ODg0YmU1YmU5XkEyXkFqcGdeQXVyMTE5OTM1MjU3._V1_FMjpg_UX1000_.jpg" width="200" align="left"></th>
+				<th>Jun Lana</th>
+				<th>February 15, 2023</th>
+				<th>A widowed billionaire's abrupt death throws a monkey wrench in the plans and leaves ten side-women entangled in a mystery that seems unsolvable as they compete to become his legal wife.</th>
+			</tr>
+			<tr>
+				<th><img src="https://m.media-amazon.com/images/M/MV5BNzM3NjE2MzktYTlkZC00OTQ0LWFjMmUtOTQ0NGExODY4YzE3XkEyXkFqcGdeQXVyNTI5NjIyMw@@._V1_.jpg" width="200" align="left"> </th>
+				<th>Cathy Garcia-Molina</th>
+				<th>June 26, 2013</th>
+				<th>To stop their younger brother from marrying his fiancée, four sisters get together. They address the emotions and problems they had long suppressed as a result of their interactions.</th>
+			</tr>
+			<tr>
+				<th><img src="https://m.media-amazon.com/images/M/MV5BMzIxNzY5NjI4NF5BMl5BanBnXkFtZTgwODM1MTE0MjE@._V1_.jpg" width="200" align="left"></th>
+				<th>Mark Meily</th>
+				<th>December 25, 2003</th>
+				<th>Choleng (Angel Aquino), Rhoda (Hilda Koronel), and Stella (Sharon Cuneta) were professional mourners in Manila's lower middle class. They start crying during funerals for a fee, often at the invitation of families who are grieving a loved one. But these three women are more than simply their shared remarkable work. While Rhoda contemplates her past acting career, Choleng faces a moral problem as a new project draws near. Stella wants to advance financially and regain custody of her kid.
+</th>
+			</tr>
+		</table>
+	<hr>
+</div>
+<div class="container bg-warning">
+	<p>Crying Ladies (2003). (2003, December 25). IMDb. https://www.imdb.com/title/tt0391892/</p>
+	<p>Four Sisters and a Wedding (2013). (2013, June 26). IMDb. https://www.imdb.com/title/tt3008034/</p>
+	<p>Ten Little Mistresses (2023). (2023, February 15). IMDb. https://www.imdb.com/title/tt24787466/</p>
+
+</div>
+<footer>
+	<small>&copy; JVMEnriquez 2022</small>
+</footer>
+</body>
+</html>
